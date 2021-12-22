@@ -1,0 +1,62 @@
+.darkmood {
+    filter: invert(1) hue-rotate(180deg);
+    -webkit-filter: invert(1) hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(1) hue-rotate(180deg);
+    -webkit-filter: invert(1) hue-rotate(180deg);
+}
+
+body {
+    /* font-family: 'Bitter', serif; */
+    font-weight: bold;
+    font-family: -webkit-pictograph;
+}
+
+.nav-bar {
+    padding-top: 15px;
+}
+
+.nav-bar .logo {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav-bar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    position: relative;
+}
+
+.search .icon {
+    position: absolute;
+    right: 7px;
+    top: 9px;
+}
+
+.search input {
+    outline: none;
+    width: 100%;
+    border: 2px solid #DDD;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.nav-bar ul li:nth-child(1) {
+    cursor: pointer;
+    text-align: center;
+}

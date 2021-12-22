@@ -1,0 +1,31 @@
+.MainViewMoive .ShowMoive {
+    margin-bottom: 25px;
+}
+
+.MainViewMoive .title-page {
+    margin-bottom: 25px;
+}
+
+.MainViewMoive .ShowMoive img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btnOption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnOption button {
+    background-color: #DDD;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 4px 25px;
+    margin-top: 14px;
+}
+
+.infoMovie {
+    margin-top: 75px
+}

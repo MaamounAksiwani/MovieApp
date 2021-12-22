@@ -1,0 +1,34 @@
+.Favorites {
+    min-height: 770px;
+}
+
+.details-delete {
+    background-color: #E63030;
+    color: #fff;
+    border: none;
+    padding: 4px 25px;
+    margin-top: 14px;
+}
+
+.title-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: c;
+}
+
+.title-page p {
+    color: gray;
+}
+
+.title-page button {
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #E63030;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

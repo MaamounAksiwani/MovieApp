@@ -1,0 +1,89 @@
+footer {
+    background-color: #DDD;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .col-lg-3 {
+    margin-top: 50px;
+}
+
+footer .logo-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer .container ul {
+    list-style: none;
+    margin-top: 25px;
+}
+
+footer .container ul li {
+    cursor: pointer;
+}
+
+footer .first-list li:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer .first-list li:nth-child(8),
+footer .first-list li:nth-child(9),
+footer .first-list li:nth-child(10),
+footer .first-list li:nth-child(11),
+footer .first-list li:nth-child(12),
+footer .first-list li:nth-child(13),
+footer .first-list li:nth-child(14),
+footer .first-list li:nth-child(15),
+footer .first-list li:nth-child(16),
+footer .first-list li:nth-child(17),
+footer .first-list li:nth-child(18),
+footer .first-list li:nth-child(19),
+footer .first-list li:nth-child(20),
+footer .first-list li:nth-child(21),
+footer .first-list li:nth-child(22) {
+    display: none
+}
+
+footer .Sec-list li:nth-child(1),
+footer .Sec-list li:nth-child(2),
+footer .Sec-list li:nth-child(3),
+footer .Sec-list li:nth-child(4),
+footer .Sec-list li:nth-child(5),
+footer .Sec-list li:nth-child(6),
+footer .Sec-list li:nth-child(7),
+footer .Sec-list li:nth-child(15),
+footer .Sec-list li:nth-child(16),
+footer .Sec-list li:nth-child(17),
+footer .Sec-list li:nth-child(18),
+footer .Sec-list li:nth-child(19),
+footer .Sec-list li:nth-child(20),
+footer .Sec-list li:nth-child(21),
+footer .Sec-list li:nth-child(22) {
+    display: none
+}
+
+footer .third-list li:nth-child(1),
+footer .third-list li:nth-child(2),
+footer .third-list li:nth-child(3),
+footer .third-list li:nth-child(4),
+footer .third-list li:nth-child(5),
+footer .third-list li:nth-child(6),
+footer .third-list li:nth-child(7),
+footer .third-list li:nth-child(8),
+footer .third-list li:nth-child(9),
+footer .third-list li:nth-child(10),
+footer .third-list li:nth-child(11),
+footer .third-list li:nth-child(12),
+footer .third-list li:nth-child(13),
+footer .third-list li:nth-child(14) {
+    display: none
+}
+
+footer .container .Sec-list,
+footer .container .third-list {
+    margin-top: 65px;
+}
